@@ -1,35 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <div>
-            <img src="./images/logo.png" alt="logo" align="left">
-            <p>BRAIN STORM</p>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-div">
+            <p class="navbrand">BRAINSTORM</p>
+            <img src="./images/logo.png" alt="logo" class="logo">
         </div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Previous Submissions</li>
-                <li>Signout</li>
+        <nav class="nav">
+            <ul class="navbar">
+                <li class="nav-items">Home</li>
+                <li class="nav-items">Previous Submissions</li>
+                <li class="nav-items">Signout</li>
             </ul>
         </nav>
     </header>
-    <main>
-        <form>
-            <label>Area of Improvement </label>
-            <br></br>
-            <select>
-                <option value="">Select Category</option>
-                <option value="Area 1">Area 1</option>
-                <option value="Area 2">Area 1</option>
-                <option value="Area 3">Area 1</option>
-            </select>
-            <br></br>
-            <label>Idea</label>
-            <br></br>
-            <textarea cols="100" rows="10"></textarea>
-            </form>
-            <footer>
-                <p>© 2019 Copyright DataFlow Group All Rights Reserved. Terms & Conditions | General Applicant Privacy Policy</p>
-            </footer>
+
+    <main class="main container">
+        <form class="form">
+            <div class="form-elem">
+                <label class="input-label">Area of Improvement </label>
+                <select class="input-field">
+                    <option value="">Select Category</option>
+                    <option value="Area 1">Area 1</option>
+                    <option value="Area 2">Area 1</option>
+                    <option value="Area 3">Area 1</option>
+                </select>
+            </div>
+            <div class="form-elem">
+                <label class="input-label">Idea</label>
+                <textarea class="input-field textarea"></textarea>
+            </div>
+           
+            <div class="form-elem">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn">Reset</button>
+            </div>
+        </form>
 
     </main>
+
+    <footer class="footer">
+        <p>© 2019 DataFlow Group</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900&display=swap');
+
+html,
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #bbb;
+}
+
+.navbrand{
+    flex: 1;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #bbb;
+    background-color: #444;
+}
+
+.navbar{
+    list-style-type: none;
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.nav-items{
+    padding: .5rem;
+}
+
+/* Form */
+
+.main{
+    height: calc(100vh - 202px);
+}
+
+.form{
+    margin: 2rem auto 0;
+    width: 50%;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    padding: 2em 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transform: translateY(50%);
+}
+
+.form-elem{
+    margin-bottom: 1em;
+    align-self: center;
+}
+
+.input-label{
+    display: block;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.input-field{
+    border: 1px solid #bbb;
+    background: #fbfbfb;
+    width: 100%;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.textarea{
+    height: 100px;
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+}
